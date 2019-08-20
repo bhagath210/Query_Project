@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cisco Comunity</title>
+    <link rel="icon" type="image/x-icon" href="./cisco.jpg">
+    <link rel="stylesheet" href="./Cisco.css">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>CISCO</h1>
+        <sub>Queries</sub>
+    </header>
+    <button onclick="search()" id="ask-btn">Ask Query</button>
+    <hr>
+    <div class="main">
+        <div class="main3">
+            <textarea id="query-area" name="subject" placeholder="Write query..."></textarea>
+            <button id="cancle-btn" onclick="cancle_query()">Cancle</button>
+            <button onclick="post_query()" id="post-btn">Post</button>
+        </div>
+            <div class="main1">
+                    <i class="fa fa-search icon"></i> 
+                    <input type="text" id="search" placeholder="Type your query here">
+                    <br><br>
+                    <button id="search-btn">Search</button><br>
+            </div>
+            <div class="main2">
+                <h5>Related Questions</h5>
+                    <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                            What we are?
+                                        </button>
+                                    </h2>
+                                </div>
+                    
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        We are the Coders.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Why we are?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        We are here for to coding.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What we can do?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        We can do coding
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <!-- <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                My Accordian
+                                            </button>
+                                        </h2>
+                                    </div>
+                        
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                            wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                            eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                            assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                            farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                            labore sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div> -->
+                        </div>
+            </div>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="./Cisco.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
